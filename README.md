@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/Refara08/NFT-Card-Preview)
-- Live Site URL: [live site URL here](https://silly-shirley-c60068.netlify.app)
+- Solution URL: [solution URL here](https://github.com/Refara08/Order-summary-Frontend-mentor)
+- Live Site URL: [live site URL here](https://refara08-order-summary.pages.dev)
 
 ## My process
 
@@ -136,3 +136,4 @@ I don't think that this situation is normal, but I couldn't figure it out myself
 - Frontend Mentor - [@Refara08](https://www.frontendmentor.io/profile/Refara08)
 - Github - [Refara08](https://github.com/Refara08)
 - Codepen - [Gema Refantero](https://codepen.io/refantero)
+- Twitter - [@GRefantero](https://twitter.com/GRefantero)
