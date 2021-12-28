@@ -1,0 +1,117 @@
+@import "variables";
+@import "global";
+@import "mediaQ";
+
+.container {
+  display: grid;
+  grid-template-rows: 8fr 2fr;
+  place-items: center;
+  height: 100vh;
+  padding: 1.5rem;
+  background-image: url(../img/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: contain;
+
+  @media (max-width: 1024px) and (min-width: 415px) {
+    background-position: 50% 0%;
+    background-size: 250%;
+  }
+
+  @media (max-width: 414px) {
+    background: transparent;
+  }
+}
+
+#main-header {
+  .card {
+    max-width: 450px;
+    background: #fff;
+    margin-top: 6.5rem;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 25px 50px 0px transparentize($dest-blue, $amount: 0.85),
+      -10px 25px 50px 5px transparentize($dest-blue, $amount: 0.85);
+
+    &-content {
+      padding: 1rem 3rem;
+      text-align: center;
+
+      .plan {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-gap: 1rem;
+        align-items: center;
+        width: 100%;
+        background: $vpale-blue;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        border-radius: 15px;
+
+        & > *:nth-child(2) {
+          justify-self: start;
+        }
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+
+        a {
+          color: $bright-blue;
+          text-decoration: underline;
+          font-weight: 900;
+          transition: all 300ms ease;
+
+          &:hover {
+            text-decoration: none;
+            color: $dest-blue;
+          }
+        }
+
+        &-type h2 {
+          font-size: 1rem;
+          font-weight: 900;
+        }
+      }
+    }
+
+    &-text {
+      padding: 1rem 1rem 0;
+      margin-bottom: 1.5rem;
+
+      h1 {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+#main-footer {
+  display: grid;
+  place-self: end center;
+  text-align: center;
+
+  p {
+    font-size: 0.9rem;
+    color: $dark-blue;
+  }
+
+  i {
+    font-size: 1.5rem;
+    margin: 0.5rem 0.2rem;
+    padding: 0.3rem;
+    color: $bright-blue;
+    background: $pale-blue;
+    border-radius: 50%;
+    transform: scale(1.2);
+    transition: all 300ms ease;
+
+    &:hover {
+      color: $pale-blue;
+      background: $bright-blue;
+      transform: scale(1.1);
+    }
+  }
+}

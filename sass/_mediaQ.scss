@@ -1,0 +1,60 @@
+//MObile Screen size < 414px
+@media (max-width: 455px) {
+  .container {
+    grid-template-rows: 1fr !important;
+  }
+
+  .card {
+    margin-top: 0 !important;
+
+    &-content {
+      padding: 1rem 1.75rem !important;
+    }
+
+    &-text {
+      h1 {
+        font-size: 1.45rem !important;
+      }
+    }
+  }
+
+  .plan {
+    grid-template-columns: 1fr 9fr 6fr !important;
+    grid-gap: 0.5rem !important;
+    padding: 0.5rem !important;
+
+    img {
+      transform: scale(0.8);
+    }
+
+    a {
+      font-size: 0.9rem;
+    }
+
+    &-type {
+      h2,
+      p {
+        font-size: 0.9rem !important;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .btn {
+    &-yes {
+      font-size: 0.9rem;
+      padding: 0.7rem;
+      margin-bottom: 0.5rem !important;
+    }
+
+    &-no {
+      font-size: 0.9rem;
+      width: 50%;
+      margin: 0.5rem auto !important;
+    }
+  }
+
+  #main-footer {
+    display: none !important;
+  }
+}
