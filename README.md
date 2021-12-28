@@ -42,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-Applying and Positioning the main Background of the page is quite challanging and tricky. as I thought I should make two layers of background, plain color background at body
+Applying and Positioning the main Background of the page is quite challenging and tricky. as I thought I should make two layers of background, plain color background at body
 
 ```css
 body {
@@ -64,7 +64,7 @@ and also, pattern background at container class that wrap all around page conten
 
 I don't know if this solution is the best way. So, let me know if you have more effective solution to this case. I will appreciate it! :).
 
-another problem that I found challanging is the responsiveness of the page. I found when I code the media querries for mobile screen.. it appears that the code at media querries is overwritten by the code at the main styling, even though the page is already at the mobile screen. So, I need to put !important tag in almost every code line.
+another problem that I found challenging is the responsiveness of the page. I found when I code the media querries for mobile screen.. it appears that the code at media querries is overwritten by the code at the main styling, even though the page is already at the mobile screen. So, I need to put !important tag in almost every code line.
 
 ```css
 @media (max-width: 455px) {
